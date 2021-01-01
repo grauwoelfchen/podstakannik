@@ -16,6 +16,10 @@ filesystem.
 
 ```zsh
 % podstakannik
+
+# or, please make an alias if you want since the name is a bit long...
+% alias post=podstakannik
+% post
 ```
 
 ## Development
@@ -25,8 +29,8 @@ filesystem.
 % cd podstakannik
 % make && make install
 
-# please make an alias if you want, since the name is a bit long...
-% alias post=podstakannik
+# debug build in .cargo/bin
+% podstakannik
 ```
 
 For other development targets, see the output by ``make help``.
