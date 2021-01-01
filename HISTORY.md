@@ -9,18 +9,22 @@ All notable changes belong to releases will be documented in this file.
 https://gitlab.com/grauwoelfchen/podstakannik/-/compare/v0.0.1...trunk)
 
 
-## Tags
+## Releases
 
-### Release v0.0.1
+### Tag v0.0.1
 
-Tag [v0.0.1](
-https://gitlab.com/grauwoelfchen/podstakannik/-/tags/v0.0.1) has
-not been released yet.
+[v0.0.1](
+https://gitlab.com/grauwoelfchen/podstakannik/-/tags/v0.0.1)
+
+This is the initial release. You can't do yet anything.
 
 #### Changes
 
 [...v0.0.1](
 https://gitlab.com/grauwoelfchen/podstakannik/-/compare/25f90a1b...v0.0.1)
+
+* Update HISTORY.md
+* Update README.rst
 
 #### Links
 
