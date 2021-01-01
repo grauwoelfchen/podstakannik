@@ -115,7 +115,7 @@ checksum = "afb2e1c3ee07430c2cf76151675e583e0f19985fa6efae47d6848a3e2c824f85"
 
 [[package]]
 name = "podstakannik"
-version = "0.0.1"
+version = "0.0.2"
 dependencies = [
  "cargo-husky",
  "clap",
