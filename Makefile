@@ -70,6 +70,10 @@ package:  ## Create package
 	@cargo package
 .PHONY: package
 
+install:  ## Install a debug target into the directory same with cargo
+	@cargo install --debug --path . --force
+.PHONY: install
+
 help:  ## Display this message
 	@grep -E '^[0-9a-z\:\\]+: ' $(MAKEFILE_LIST) | \
 	  grep -E '  ## ' | \

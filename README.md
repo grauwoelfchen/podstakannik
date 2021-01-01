@@ -35,6 +35,7 @@ build:release  Create release build
 clean          Clean up
 coverage       Generate coverage report of tests [alias: cov]
 help           Display this message
+install        Install a debug target into the directory same with cargo
 package        Create package
 test:all       Run all unit tests [alias: test]
 verify:all     Check code using all verify:xxx targets [alias: verify]
