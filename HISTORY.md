@@ -8,6 +8,8 @@ All notable changes belong to releases will be documented in this file.
 [v0.0.2...trunk](
 https://gitlab.com/grauwoelfchen/podstakannik/-/compare/v0.0.2...trunk)
 
+* Add `make install` (for development)
+
 
 ## Releases
 
@@ -15,8 +17,6 @@ https://gitlab.com/grauwoelfchen/podstakannik/-/compare/v0.0.2...trunk)
 
 [v0.0.2](
 https://gitlab.com/grauwoelfchen/podstakannik/-/tags/v0.0.2)
-
-This is the initial release. You can't do yet anything.
 
 #### Changes
 
