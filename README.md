@@ -23,7 +23,10 @@ filesystem.
 ```zsh
 % git clone https://gitlab.com/grauwoelfchen/podstakannik.git
 % cd podstakannik
-% make build
+% make && make install
+
+# please make an alias if you want, since the name is a bit long...
+% alias post=podstakannik
 ```
 
 For other development targets, see the output by ``make help``.
