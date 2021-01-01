@@ -23,6 +23,33 @@ Usage
   % podstakannik
 
 
+Development
+===========
+
+.. code::zsh
+
+  % git clone https://gitlab.com/grauwoelfchen/podstakannik.git
+  % cd podstakannik
+  % make build
+
+For other development targets, see the output by ``make help``.
+
+.. code::zsh
+
+  % make help
+  build:debug    Build in debug mode [alias: build]
+  build:release  Create release build
+  clean          Clean up
+  coverage       Generate coverage report of tests [alias: cov]
+  help           Display this message
+  package        Create package
+  test:all       Run all unit tests [alias: test]
+  verify:all     Check code using all verify:xxx targets [alias: verify]
+  verify:check   Verify code syntax [alias: check]
+  verify:format  Verify format without changes [alias: verify:fmt, format, fmt]
+  verify:lint    Verify coding style using clippy [alias: lint]
+
+
 License
 =======
 
