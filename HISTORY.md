@@ -5,22 +5,22 @@ All notable changes belong to releases will be documented in this file.
 
 ## Unreleased changes
 
-[podstakannik-v0.0.1...trunk](
-https://gitlab.com/grauwoelfchen/podstakannik/-/compare/podstakannik-v0.0.1...trunk)
+[v0.0.1...trunk](
+https://gitlab.com/grauwoelfchen/podstakannik/-/compare/v0.0.1...trunk)
 
 
 ## Tags
 
 ### Release v0.0.1
 
-Tag [podstakannik-v0.0.1](
-https://gitlab.com/grauwoelfchen/podstakannik/-/tags/podstakannik-v0.0.1) has
+Tag [v0.0.1](
+https://gitlab.com/grauwoelfchen/podstakannik/-/tags/v0.0.1) has
 not been released yet.
 
 #### Changes
 
-[...podstakannik-v0.0.1](
-https://gitlab.com/grauwoelfchen/podstakannik/-/compare/...podstakannik-v0.0.1)
+[...v0.0.1](
+https://gitlab.com/grauwoelfchen/podstakannik/-/compare/25f90a1b...v0.0.1)
 
 #### Links
 
