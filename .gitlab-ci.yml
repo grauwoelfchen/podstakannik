@@ -50,7 +50,7 @@ test:
     - mkdir -p .git/hooks
   script:
     # test & get covered
-    - KCOV_PFX=/usr/bin/ make coverage
+    - KCOV_PREFIX=/usr/bin make coverage
   after_script:
     - cat target/coverage/index.json
 
