@@ -1,4 +1,4 @@
-NAME = podstakannik
+PACKAGE = podstakannik
 
 # verify
 verify\:check:  ## Verify code syntax [alias: check]
@@ -41,9 +41,9 @@ test: | test\:all
 
 # coverage
 coverage:  ## Generate coverage report of tests [alias: cov]
-	@cargo test --bin $(NAME) --no-run
+	@cargo test --bin $(PACKAGE) --no-run
 	@./.tool/setup-kcov
-	./.tool/get-covered $(NAME)
+	./.tool/get-covered $(PACKAGE)
 .PHONY: coverage
 
 cov: | coverage
@@ -69,6 +69,10 @@ clean:  ## Clean up
 package:  ## Create package
 	@cargo package
 .PHONY: package
+
+publish:  ## Publish package
+	@cargo publish
+.PHONY: publish
 
 install:  ## Install a debug target into the directory same with cargo
 	@cargo install --debug --path . --force
