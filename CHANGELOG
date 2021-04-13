@@ -1,4 +1,5 @@
 Wed 14 Apr 2021 Yasuhiro Яша Asaka <yasuhiro.asaka@grauwoelfchen.net>
+	* Add a loop by using notify-rs/notify
 	* Update misc files (.gitlab-ci.yml, README.md, Cargo.toml etc.)
 
 Fri 01 Jan 2021 Yasuhiro Яша Asaka <yasuhiro.asaka@grauwoelfchen.net>

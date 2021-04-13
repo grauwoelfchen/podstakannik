@@ -43,6 +43,7 @@ path = "test/test.rs"
 
 [dependencies]
 clap = "3.0.0-beta.2"
+notify = "4.0.12"
 
 [dev-dependencies.cargo-husky]
 version = "1"
