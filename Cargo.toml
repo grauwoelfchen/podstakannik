@@ -20,6 +20,7 @@ autobins = false
 exclude = [
   ".cargo-huskey",
   ".tool",
+  "test",
   ".clippy.toml",
   ".rustfmt.toml",
   ".gitignore",
