@@ -50,11 +50,11 @@ test:
     - mkdir -p .git/hooks
   script:
     # test & get covered
-    - KCOV_PATH=/usr/bin/kcov make coverage
+    - KCOV_PFX=/usr/bin/ make coverage
   after_script:
     - cat target/coverage/index.json
 
-debug:
+build-debug:
   stage: build
   image: grauwoelfchen/rust:stable
   before_script:
@@ -66,9 +66,9 @@ debug:
   cache:
     untracked: true
   only:
-    - master
+    - trunk
 
-release:
+build-release:
   stage: build
   image: grauwoelfchen/rust:stable
   before_script:
@@ -80,4 +80,4 @@ release:
   cache:
     untracked: true
   only:
-    - tags
+    - trunk
